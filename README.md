@@ -13,7 +13,7 @@ GIT
  - ```git reset --hard``` jeśli coś spapprałeś i chcesz wrócić do ostatniego działającego commita
 
 0. Materiały
-====== 
+======
 
 Stopniowo będę dodawał nowe rzeczy
 
@@ -26,3 +26,5 @@ Stopniowo będę dodawał nowe rzeczy
 
  1. Makefile i GPP
  2. Rysowanie trójkątów
+ 3. ```cmath``` i własne pliki nagłówkowe
+ 4. Własne pliki nagłówkowe II
