@@ -3,7 +3,7 @@
 
 W katalogu ```zadanie1``` utwórz pliki ```Makefile``` i ```program.cpp```
 
-Plik ```program.cpp``` ma być kompilowany do pliku wyjściowego ```program``` i wyświetlać "Hello world".
+Plik ```program.cpp``` ma być kompilowany do pliku wyjściowego ```program.out``` i wyświetlać "Hello world".
 
 Program ma korzystać tylko z plików nagłówkowych  ```cstdio``` i ```cstdlib```
 
