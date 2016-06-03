@@ -27,6 +27,8 @@ P "Koniec programu"
 
 Do tworzenia pliku używasz ```fprintf`` i wskaźników ```FILE *``` http://www.cplusplus.com/reference/cstdio/fprintf/
 
+Do wczytania poprawnej decyzji użytkownika używasz pętli ```do {} while();```
+
 Stary opis
 ======
 
