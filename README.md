@@ -6,10 +6,11 @@
 GIT
 ------
 
-```git commit -am "komentarz co zrobiłeś"``` zapisuje twoje zmiany w repozytorium
-```git pull origin master``` pobiera zmiany ze zdalnego repozytorium
-```git push origin master``` zapisuje zmiany w zdalnymm repozytorium
-```git add .``` pozwala dodać nowe pliki do repozytorium
+ - ```git commit -am "komentarz co zrobiłeś"``` zapisuje twoje zmiany w repozytorium
+ - ```git pull origin master``` pobiera zmiany ze zdalnego repozytorium
+ - ```git push origin master``` zapisuje zmiany w zdalnymm repozytorium
+ - ```git add .``` pozwala dodać nowe pliki do repozytorium
+ - ```git reset --hard``` jeśli coś spapprałeś i chcesz wrócić do ostatniego działającego commita
 
 0. Materiały
 ====== 
