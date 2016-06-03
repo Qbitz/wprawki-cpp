@@ -13,3 +13,4 @@ Stopniowo będę dodawał nowe rzeczy
 ======
 
  1. Makefile i GPP
+ 2. Rysowanie trójkątów
