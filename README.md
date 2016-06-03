@@ -12,4 +12,4 @@ Stopniowo będę dodawał nowe rzeczy
 1. Zadania
 ======
 
- #. Makefile i GPP
+ 1. Makefile i GPP
