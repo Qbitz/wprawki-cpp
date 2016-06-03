@@ -17,6 +17,12 @@ P "Generuje trojkat"
 P "Skonczylem generowac trojkat"
 P "Czy chcesz wyswietlic trojkat [Y/n]?"
 U Y           // program dziala dokuki uzytkownik nie poda Y lub n jesli poda innny znak lub pusta linijke wypisuje ponownie poprzedni konunikat
+P o
+P oo
+P ooo
+P oooo
+P ooooo
+P oooooo
 P "Czy chcesz zapisac trojkat to pliku [Y/n]?"
 U Y           // program dziala dokuki uzytkownik nie poda Y lub n jesli poda innny znak lub pusta linijke wypisuje ponownie poprzedni konunikat
 P "Podaj nazwe pliku:"
