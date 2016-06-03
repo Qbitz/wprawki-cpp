@@ -1,5 +1,5 @@
 CC=g++
-CFLAGS=-Wall
+CFLAGS=-Wall -lm
 
 all: clean build run
 
@@ -14,6 +14,6 @@ clean:
 	rm program.out
 
 run:
-	./program.out "Damiana Łoboda" Krakusa
+	./program.out
 
 .PHONY: clean run all

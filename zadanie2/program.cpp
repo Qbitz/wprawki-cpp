@@ -1,19 +1,35 @@
+#include <cmath>
 #include <cstdio>
+#include <cstdlib>
 #include <cstring>
 
 int main(int argc, char** argv){
-	int h;
-	char c;
-	printf("Podaj wysokość trójkąta: \n");
-	scanf("%i",h);
-	char str[i*(2^i+1)];
-	printf("Podaj znak za pomocą którego narysowany będzie trójkat: \n");
-	scanf("%c",h);
-	printf("Generuje trójkąt!");
-	for (int i=0;i<=h:i++){
-		for (int j;j<=i;j++) strcpy(str,c);
-		strcpy ("\n"str,c);
+	int h = 0;
+	char* c = new char[20];
+	
+	printf("Podaj wysokość trójkąta:\n");
+	scanf("%d", &h);
+
+	int w = h*h+h;
+	char* str = new char[w];
+	
+	printf("Podaj znak za pomocą którego narysowany będzie trójkat:\n");
+	scanf("%s", c);
+
+	printf("Wybrano wysokosc %d i znak %s (rozmiar %d)\n", h, c, w);
+
+	printf("Generuje trójkąt!\n");
+	for (int i=0; i<h; i++) {
+		for (int j=0; j<i; j++) {
+			if(i==0 && j==0) {
+				strcpy(str, c);
+			}
+			else {
+				strcat(str, c);
+			}
+		}
+		strcat(str, "\n");
 	}
-	printf("%c",str);
+	printf("%s", str);
 	return 0;
 }
